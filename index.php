@@ -1,8 +1,13 @@
 <?php
 require "vendor/autoload.php";
 
-use Acme\User;
-use Acme\Pages\Page;
+use Obinna\User;
+use Obinna\Page;
 
 
-$page1 = new Page();
+$page = new Page();
+
+$helloUser = $page->sayhello();
+$hellopage = $page->another();
+
+echo $helloUser."\n\n".$hellopage;
