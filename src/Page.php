@@ -1,6 +1,6 @@
 <?php
 
-namespace Acme\Pages;
+namespace Obinna;
 
 class Page {
     function another()
