@@ -11,4 +11,5 @@ $page = new Page();
 $helloUser = $user->sayhello();
 $hellopage = $page->another();
 
-echo $helloUser."\n\n".$hellopage;
+echo $helloUser;
+echo $hellopage;
