@@ -1,9 +1,9 @@
 <?php
 namespace Obinna;
 
-class Page {
+class User {
     public function sayhello()
     {
-        echo "hello, this is a user page.";
+        echo "hello world, this is a user page.<br><br>";
     }
 }
