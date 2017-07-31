@@ -1,0 +1,21 @@
+{
+  "name": "objective",
+  "description": "My first Composer project",
+  "authors": [
+    {
+      "name": "Obinna Johnphill",
+      "email": "obinna.johnphill@enta.net"
+    }
+  ],
+
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.1.0",
+    "illuminate/support": "^5.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Obinna\\":"src/"
+    }
+  }
+}
