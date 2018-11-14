@@ -20,7 +20,7 @@ create a composer file and add:
 }
 
 Install package:
-composer require "objective/autoload":"*"
+sudo composer require "objective/autoload":dev-master 
 
 Prepare project:
 copy the index.php file from package to your project directory
